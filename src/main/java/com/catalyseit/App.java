@@ -8,7 +8,7 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
 
-        Est est = new Est("login", "password", "https://dev.esign-tools.fr/api",
+        Est est = new Est("login", "password", "https://secure.esign-tools.fr/api",
                 "callbackUrl");
         EstRecipient recip = new EstRecipient("recipMail", "recipFirstname", "recipLastname", 1, 1);
         List<EstRecipient> recipients = new ArrayList<>();
